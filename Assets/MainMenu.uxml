@@ -1,0 +1,17 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="MainMenu" class="screen">
+        <ui:Label text="2v2 Air Hockey ML Project" class="title"/>
+        <ui:Label text="Choose your player role" class="subtitle"/>
+        <ui:Button name="PlayStrikerButton" text="Play as Striker" class="menu-button"/>
+        <ui:Button name="PlayDefenderButton" text="Play as Defender" class="menu-button"/>
+        <ui:Label text="Board Orientation" class="subtitle"/>
+        <ui:Button name="VerticalButton" text="Vertical Board" class="menu-button small"/>
+        <ui:Button name="HorizontalButton" text="Horizontal Board" class="menu-button small"/>
+    </ui:VisualElement>
+    <ui:VisualElement name="HUD" class="hud">
+        <ui:Label name="ScoreLabel" text="Left Team: 0 | Right Team: 0" class="hud-text"/>
+        <ui:Label name="RoleLabel" text="Current Role: Striker" class="hud-text"/>
+        <ui:Label name="WinnerLabel" text="" class="winner-text"/>
+        <ui:Button name="RestartButton" text="Restart Match" class="restart-button"/>
+    </ui:VisualElement>
+</ui:UXML>

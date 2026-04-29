@@ -1,0 +1,25 @@
+# Unity temporary files
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+UserSettings/
+
+# Visual Studio
+.vs/
+*.csproj
+*.sln
+*.user
+*.suo
+*.userprefs
+
+# Python virtual environments
+venv/
+__pycache__/
+*.pyc
+
+# ML-Agents training results
+results/
+*.yamlLibrary/  Temp/  Logs/  obj/  UserSettings/  .vs/  results/  *.mp4  App/  py  python 
